@@ -1,0 +1,17 @@
+{
+  "name": "@subsentinel/db",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json"
+  },
+  "dependencies": {
+    "@prisma/client": "5.13.0"
+  },
+  "devDependencies": {
+    "prisma": "5.13.0",
+    "typescript": "5.4.5"
+  }
+}

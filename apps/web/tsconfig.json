@@ -1,0 +1,21 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "allowJs": false,
+    "baseUrl": ".",
+    "jsx": "preserve",
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "paths": {
+      "@/lib/*": ["lib/*"],
+      "@/schemas/*": ["schemas/*"],
+      "@/components/*": ["components/*"]
+    },
+    "strict": true,
+    "target": "es2017",
+    "types": ["node"],
+    "noEmit": true
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
+}
